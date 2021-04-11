@@ -1,0 +1,7 @@
+C:\Users\aditya.sharma\source\repos\firstProject\firstProject\bin\Debug\firstProject.exe.config
+C:\Users\aditya.sharma\source\repos\firstProject\firstProject\bin\Debug\firstProject.exe
+C:\Users\aditya.sharma\source\repos\firstProject\firstProject\bin\Debug\firstProject.pdb
+C:\Users\aditya.sharma\source\repos\firstProject\firstProject\obj\Debug\firstProject.csprojAssemblyReference.cache
+C:\Users\aditya.sharma\source\repos\firstProject\firstProject\obj\Debug\firstProject.csproj.CoreCompileInputs.cache
+C:\Users\aditya.sharma\source\repos\firstProject\firstProject\obj\Debug\firstProject.exe
+C:\Users\aditya.sharma\source\repos\firstProject\firstProject\obj\Debug\firstProject.pdb
