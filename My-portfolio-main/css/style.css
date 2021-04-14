@@ -1,0 +1,88 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.banner-container {
+  background-color: #aa8d8d;
+  background-image: url('../img/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* 
+.banner-column {
+  background-color: #eb746a;
+} */
+
+.navbar-container {
+  top: 0;
+  background-color: #101a25;
+  position: sticky;
+  z-index: 2;
+  /* opacity: 0.7; */
+}
+
+.about-container {
+  background-color: #007a47;
+}
+.education-container {
+  background-color: rgb(240, 231, 217);
+}
+
+.bg-redtype {
+  background-color: rgb(247, 110, 31);
+}
+
+.bg-redtype:hover {
+  color: #101a25 !important;
+}
+
+.redtype-colour {
+  color: rgb(216, 120, 120);
+}
+
+.circle {
+  background-color: rgb(216, 120, 120);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.project-container {
+  background-color: rgb(90, 90, 216);
+}
+
+.form-container {
+  background-color: rgb(77, 101, 102);
+}
+
+.inner-form {
+  background-color: rgb(77, 101, 102);
+}
+
+.footer {
+  background-color: #101a25;
+}
+
+.circle2 {
+  height: 60px;
+  width: 60px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgb(0, 195, 255);
+  color: rgb(255, 255, 255);
+}
+.nolink{
+  text-decoration:none;
+  color: inherit;
+}
+.circle2:hover {
+  background-color: #ffffff;
+  color: #101a25;
+}
+
+.skill_img{
+  width: 200px;
+}
