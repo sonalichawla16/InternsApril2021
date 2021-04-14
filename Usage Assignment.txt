@@ -1,0 +1,15 @@
+* Usage of call():-
+
+Each function calls gets its own this binding. But call() gives us a way to “borrow” a method from one object to use for another by specifyng what that this binding would be. call() attaches this into function and executes the function immediately. So we can say that call is such a method of functions that is used to borrow methods from other objects and set this value explicitly. call is used when we want to control the scope that will be used in the function called. Each function call gets its own this binding, and we might want the this keyword to be something else than the scope of the function assigned. We can also use call to demethodize native js methods eg- We can demethodize the split() method into a generic function call demethSplit using Function.prototype.call.apply
+
+
+* Usage of apply():-
+
+The limitations of call() quickly become apparent when you want to write code that doesn’t know the number of arguments that the functions need. So that’s where apply comes in — the second argument needs to be an array, which is unpacked into arguments that are passed to the called function. e.g. finding the maximum value from an array. apply works in almost exactly the same way as call. The difference is that instead of a series of arguments, apply takes an array of values to use in its invocation. Another thing that apply can do which call can’t is executing Variable-Arity Functions or variadic functions. These are functions that accept any number of arguments instead of a fixed number of arguments. The arity of a function specifies the number of arguments the function is supposed to accept. A common example of variable-arity function in JavaScript is Math.max() method. Using null with .apply() or .call() is only usually done with functions that are methods for namespace reasons only, not for object-oriented reasons.
+
+* Usage of bind():-
+
+bind() is particularly powerful in partial fuctions, as beyond making our code more concise, with it we can make partial functions, also called function Cyrrying. It refers to the process of fixing a number of arguments to a function, producing another function of smaller arity. bind() provides two opportunities (at different times) for passing the function arguments, by preserving the context of this for future execution.
+
+
+Note:- Overall, Use .bind() when you want that function to later be called with a certain context, useful in events. Use .call() or .apply() when you want to invoke the function immediately, and modify the context.
