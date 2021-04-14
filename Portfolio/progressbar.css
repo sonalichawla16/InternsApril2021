@@ -1,0 +1,25 @@
+.progress{
+    width: 200px;
+    margin: 10px;
+}
+.progress-section div{
+    /* display: inline-block; */
+    float: left;
+    width: 188px;
+    height:40px;
+    position: relative;
+    
+}
+.inside_progress{
+    margin: 10px;
+    margin-right: 60px;
+}
+.progress-section{
+    margin-left: 20px;
+    height: 40vh;
+    display: flex;
+}
+
+.progress-bar{
+    padding:15px;
+}
