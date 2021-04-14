@@ -1,0 +1,48 @@
+Call( ): The call() method invokes a function with a given 'this' value and arguments provided one by one.
+
+Apply( ): Invokes the function and allows you to pass in arguments as an array.
+
+Bind(): returns a new function, allowing you to pass in an array and any number of arguments.Alternatively,we can say that Bind 
+is a Combination or Hybrid of Call() and Apply().
+
+We should use Call() and Apply() when we have to invoke a Function Immediately and We should use Bind() when we have to invoke a Function
+in Future.
+
+Call() Example:-
+
+var person1 = {firstName: 'Jon', lastName: 'Kuperman'};
+var person2 = {firstName: 'Kelly', lastName: 'King'};
+
+function say(greeting) {
+    console.log(greeting + ' ' + this.firstName + ' ' + this.lastName);
+}
+
+say.call(person1, 'Hello'); // Hello Jon Kuperman
+say.call(person2, 'Hello'); // Hello Kelly King
+
+Apply() Example:-
+
+var person1 = {firstName: 'Jon', lastName: 'Kuperman'};
+var person2 = {firstName: 'Kelly', lastName: 'King'};
+
+function say(greeting) {
+    console.log(greeting + ' ' + this.firstName + ' ' + this.lastName);
+}
+
+say.apply(person1, ['Hello']); // Hello Jon Kuperman
+say.apply(person2, ['Hello']); // Hello Kelly King
+
+Bind() Example:-
+
+var person1 = {firstName: 'Jon', lastName: 'Kuperman'};
+var person2 = {firstName: 'Kelly', lastName: 'King'};
+
+function say() {
+    console.log('Hello ' + this.firstName + ' ' + this.lastName);
+}
+
+var sayHelloJon = say.bind(person1);
+var sayHelloKelly = say.bind(person2);
+
+sayHelloJon(); // Hello Jon Kuperman
+sayHelloKelly(); // Hello Kelly King
