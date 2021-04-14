@@ -157,4 +157,156 @@ body{
             z-index: -1;
             opacity: 0.5;
         }
-  
+        .logo{
+          width: 150px;
+          border-radius: 20px;
+          cursor: pointer;
+          display: flex;
+      }
+      .btn3{
+        border: 0px solid #fff;
+        padding: 6px 25px;
+        border-radius:30px;
+        margin-left: 30px;
+        color:white;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+        
+        font-weight: 500;
+    }
+    .btn4{
+        border: 5px solid #fff;
+        padding: 6px 25px;
+        border-radius:30px;
+        margin-left: 30px;
+        color:white;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+        font-size: 22px;
+    }
+    .btn3:hover{
+        border: 3px solid #fff;
+        padding: 6px 25px;
+        border-radius:30px;
+        margin-left: 30px;
+        color:white;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+    }
+    .nav{
+      display: flex;
+      align-items: center;
+      padding:30px 0;
+      
+    
+    
+    padding-left:8%;
+    padding-right:8%;
+    
+    position: relative;
+    z-index: 1; 
+    overflow: hidden;
+  }
+  .logo{
+      width: 150px;
+      border-radius: 20px;
+      cursor: pointer;
+      display: flex;
+  }
+  nav ul{
+      flex:1;
+      text-align: right;
+  }
+  nav ul li{
+      display: inline-block;
+      list-style:none;
+      margin: 0 15px;
+  }
+  a{
+      text-decoration: none;
+      color: #fff;
+  }
+  .btn5{
+    border: 4px solid #4d19db;
+    padding: 6px 25px;
+    border-radius:21px;
+    margin-left: 30px;
+    color:#a700ff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+}
+
+.footer-class{
+  background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg");
+  padding-left:0;
+  padding-right:0;
+  box-sizing: border-box;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  border-radius: 30px;
+  margin-bottom: -10px;
+}
+
+
+.footer-basic {
+  padding:40px 0;
+  /* background-color:#ffffff; */
+  color:#4b4c4d;
+  padding-left:8%;
+    padding-right:8%;
+     
+  background: linear-gradient(85deg, #a700ff,#fff,#4d19db);
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}

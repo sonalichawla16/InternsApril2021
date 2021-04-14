@@ -12,22 +12,25 @@
     />
     <link rel="stylesheet" href="style2.css" />
     
-   
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   </head>
   <body>
     <div class="hero" style="float: inherit" id="home">
       <img src="img/triangle-top.png" class="triangle1" />
       <img src="img/triangle-left.png" class="triangle2" />
       <img src="img/circle.png" class="circle" />
-      <nav class="nav">
+
+      <!-- Navigation bar  -->
+      <nav class="nav" >
         <img
           src="http://oxnia.com/wp-content/uploads/2019/01/frontend-logo-featured-image-2.png"
-          class="logo hoverable"
+          class="logo hoverable" 
         />
         <ul>
-          <li><a href="#home" class="btn3 hoverable">Home</a></li>
-          <li><a href="#project" class="btn3 hoverable">Project</a></li>
-          <li><a href="index4.html" class="btn3 hoverable">About Me</a></li>
+          <li><a href="index.html" class="btn3 hoverable">Home</a></li>
+          <li><a href="index4.html" class="btn3 hoverable">About</a></li>
+          <li><a href="#pro" class="btn3 hoverable">Project</a></li>
 
           <li><a href="index5.html" class="btn3 hoverable">My Skills</a></li>
         </ul>
@@ -35,8 +38,8 @@
 
       <div class="row">
         <div class="col-1">
-          <img src="img/main.jpeg" class="l1" />
-          <img src="img/elements.png" class="elem" />
+          <img src="img/main.jpeg" style="border-radius: 300px;" />
+          
         </div>
         <div class="col-2">
           <h1>I Am <br /><span>Divyanshu Goyal</span></h1>
@@ -47,7 +50,7 @@
           <a href="" class="btn">Learn More</a>
         </div>
       </div>
-      <div id="project">
+      <div id="pro" >
         <div class="row">
           <div class="col-2">
             <h1>Netflix Clone<br /><span>2.0</span></h1>
@@ -61,11 +64,8 @@
             >
           </div>
           <div class="col-1">
-            <img src="img/netflix.png" />
-            <img
-              src="http://oxnia.com/wp-content/uploads/2019/01/frontend-logo-featured-image-2.png"
-              class="elem1"
-            />
+            <img src="img/netflix.png" class="hoverable" style="top:20px; border-radius: 40px;" />
+            
           </div>
         </div>
         
@@ -73,8 +73,20 @@
       
       
 
-
-     
+      <div class="footer-basic" style="border-radius: 30px; "> 
+        <footer>
+            <div class="social"><a href="https://instagram.com/thealoneshadow"><i class="icon ion-social-instagram"></i></a><a href="https://github.com/thealoneshadow"><i class="icon ion-social-github"></i></a><a href="https://twitter.com/thealoneshadow"><i class="icon ion-social-twitter"></i></a><a href="https://facebook.com"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="index4.html">About</a></li>
+                <li class="list-inline-item"><a href="imdex.html/#pro">Projects</a></li>
+                <li class="list-inline-item"><a href="index5.html">My Skills</a></li>
+                
+            </ul>
+            <p class="copyright">Designed By Divyanshu Goyal </p>
+        </footer>
+    </div>
+      
     
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@4.9.1/dist/umd/popper.min.js"
