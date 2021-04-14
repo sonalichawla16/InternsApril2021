@@ -2,7 +2,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bol
 .w3-bar,h1,button {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 .fa-anchor,.fa-coffee {font-size:200px}
 header {
-    background-image: url("./assets/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
+    background-image: url("./annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
     background-size: cover;
     height: 50%;
     text-align: center;
