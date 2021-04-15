@@ -1,0 +1,6 @@
+Q1 - Call Vs Apply Vs Bind ?
+
+Ans- The bind method creates a copy of the function and sets the this keyword, while the call and apply methods sets 
+the this keyword and calls the function immediately.
+The only difference between how they work is that call() expects all parameters to be passed in individually, 
+whereas apply() expects an array of all of our parameters.
