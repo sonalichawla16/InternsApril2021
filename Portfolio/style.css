@@ -1,3 +1,11 @@
+html,body {
+    margin:0;
+    padding:0;
+
+}
+.nava{
+    box-sizing: border-box;
+}
 .nav1{
     padding-left: 2rem;
     padding-right: .5rem;
@@ -49,10 +57,25 @@
 }
 .card-img{
     height: 16rem;
-    width: 18rem;
+    width: 17rem;
     margin: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+.ff{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ml12 {
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+.ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
 }
 
 .footer-basic {
