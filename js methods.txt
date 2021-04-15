@@ -1,0 +1,26 @@
+JAVASCRIPT METHODS.
+
+Call -> In Javascript with the call() method you can write a method that can be used on different objects.
+Apply -> Apply method also works but the only difference is using the apply method the passing arguments could be an array, refer below code.
+Bind -> bind method returns a method instance instead of result value, after that need to execute a bound method with arguments.
+
+ 
+
+Here's the example of all the three above
+
+ 
+
+var obj={
+   num : 2
+}
+var add = function(num2,num3,num4){
+   return this.num + num2 + num3 + num4;
+}
+var arr=[3,4,5];
+//Call method 
+console.log(add.call(obj,3,4,5));  //Output : 14
+//Apply method
+console.log(add.apply(obj,arr));   //Output : 14
+//bind Method
+var bound = add.bind(obj);
+console.log(bound(3,4,5));   
