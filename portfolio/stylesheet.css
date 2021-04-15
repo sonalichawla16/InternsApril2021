@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    font-family: 'New Tegomin', serif;}
+/* * {
+    border: 1px solid #f00 !important;
+  } */
+
+  
+.writing-continer{
+    background-image: url('https://i2.wp.com/moon.hoyd.net/wp-content/uploads/2020/06/image-1.png?resize=580%2C393&ssl=1');
+    background-repeat: no-repeat;
+    width:48vw;
+    height: 30vh;
+    z-index: 0;
+position:relative;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.write-text{
+    position: absolute;
+    left :4vw;
+}
+@keyframes image-float {
+    0% {
+        transform: translate(0px,0px);
+
+    }
+    25% {
+        transform: translate(0px,15px);
+      }
+      75% {
+        transform: translate(-15px,0px);
+    }
+    100% {
+        transform: translate(0px,0px);
+    }
+  }
+@media only screen and (max-width: 768px) 
+{
+            .fs-4{
+                font-size: 4vw !important;}
+
+            .fs-5 {
+                font-size: 3vw !important;
+            }
+            .fs-6{
+                font-size: 2vw !important;
+            }
+            .my-outer{
+                width: 97%;
+                height: 200px;
+            }
+            #Project{
+                margin-bottom: 5vh;
+            }
+            .overlay{
+            
+            max-height: 10vh;}
+
+            .overlay-text{
+                font-size: 1px;
+            }
+}
+
+section{
+    width: 100%;
+    margin-bottom: 40vh;
+}
+#Project{
+    margin-bottom: 10vh !important 
+}
+#Contact{
+    margin-bottom: 1vh !important;
+}
+
+img {
+    max-width: 30vw;
+    max-height: 40vh;
+    width: auto   9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+
+}
+
+.overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.image-cont {
+    position: relative;
+width: 10vw;
+height: 20vh;}
+
+.image {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    animation: image-float 5s linear infinite;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    border-radius: 30%;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .image-cont:hover .overlay {
+    opacity: 1;
+  } 
+  
+
+  
