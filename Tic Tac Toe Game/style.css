@@ -1,0 +1,40 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-image:url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section {
+    text-align: center;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    color:blueviolet;
+}
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 4px solid #333333;
+    cursor: pointer;
+line-height: 100px;
+    font-size: 60px;
+}
+.game--title{
+    color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.game--restart{
+    background-color: cyan;
+    border:2px solid black;
+}
+.game--status{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:coral;
+}
