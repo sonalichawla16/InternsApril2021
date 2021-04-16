@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.table-div{
+position: relative;
+    vertical-align: center;
+    left:13vw;
+    height: 35vw;
+    width: 35vw;
+}
+
+.spinner-border{
+    opacity: 0;
+}
+
+.cross{
+    font-size: 3vw;
+color: tomato;
+}
+
+.ooh{
+    font-size: 3vw;
+    color: dodgerblue;
+}
+
+.active{
+    color: red;
+    animation: color-change 1s infinite;
+}
+.active+.spinner-border{opacity: 1;}
+.winner+.spinner-border{opacity: 0;}
+.my-cells{
+    
+    width: 7vw !important;
+    height: 7vw !important;
+    text-align: center; 
+    vertical-align: middle;}
+.my-cells:hover{
+    background-color:whitesmoke !important;
+    ;
+}
+.winner{ font-weight: 300; color: green; }
+
+
+  
