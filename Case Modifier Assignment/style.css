@@ -1,0 +1,58 @@
+.main {
+  display: block;
+  text-align: center;
+  margin-top: 25vh;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+input[type="radio"] {
+  background-color: #ddd;
+  background-image: -webkit-linear-gradient(
+      0deg,
+      transparent 20%,
+      hsla(0, 0%, 100%, 0.7),
+      transparent 80%
+    ),
+    -webkit-linear-gradient(90deg, transparent 20%, hsla(0, 0%, 100%, 0.7), transparent
+          80%);
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px hsla(0, 0%, 100%, 0.8),
+    0 0 0 1px hsla(0, 0%, 0%, 0.6), 0 2px 3px hsla(0, 0%, 0%, 0.6),
+    0 4px 3px hsla(0, 0%, 0%, 0.4), 0 6px 6px hsla(0, 0%, 0%, 0.2),
+    0 10px 6px hsla(0, 0%, 0%, 0.2);
+  cursor: pointer;
+  display: inline-block;
+  height: 15px;
+  position: relative;
+  width: 15px;
+}
+
+.submit_btn {
+  display: inline-block;
+  padding: 0.2em 1.45em;
+  margin: 0.1em;
+  margin-top: 2em;
+  border: 0.15em solid #cccccc;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #cccccc;
+  text-align: center;
+  position: relative;
+}
+
+.submit_btn:hover {
+    border-color:#7a7a7a;
+}
+.submit_btn:active {
+    background-color:#999999;
+}
+@media all and (max-width:30em){
+    .submit_btn{
+        display:block;
+        margin:0.2em auto;
+    }
+}

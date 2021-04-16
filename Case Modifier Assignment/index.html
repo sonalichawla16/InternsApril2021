@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CASE MODIFIER</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4crx5sUQNU-C_6s3T9vr21X2tolnH_39Bsk-W3hGbIWWQ9Yp-&s" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+        <p>
+            Input text that you want to convert.
+          </p>
+      <input id="input_case" type="text" />
+      <p>
+        Select a radio button and click on Submit to get desired Output Case.
+      </p>
+
+      <br />
+      <input type="radio" name="output_case" value="upper" />Upper Case
+      <br />
+      <input type="radio" name="output_case" value="lower" />Lower Case
+      <br />
+      <input type="radio" name="output_case" value="pascal" />Pascal Case
+      <br />
+      <input type="radio" name="output_case" value="snake" />Snake Case
+      <br />
+      <input type="radio" name="output_case" value="upper_snake" />Upper Case
+      with Snake Case
+      <br />
+      <input type="radio" name="output_case" value="kebab" />Kebab Case
+      <br />
+      <input type="radio" name="output_case" value="camel" />Camel Case
+
+      <br />
+
+      <button class="submit_btn" type="button" onclick="displayRadioValue()">Submit</button>
+
+      <div id="result"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
