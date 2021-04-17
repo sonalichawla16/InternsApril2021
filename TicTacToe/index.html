@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>TIC TAC TOE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <!-- CSS file Included -->
+    <link rel="stylesheet" type="text/css" href="TicStyle.css">
+
+    <!-- JavaScript file included -->
+    <script src="TicScript.js"></script>
+    <script src="ConfettiCode/confetti.js"></script>
+
+</head>
+
+<body>
+
+    <div class="MessageSection" id="messagesection">Person A turn</div>
+    <div class="gameboard">
+
+        <div class="row">
+            <div class="col" onclick="ActionPerformedByPlayer(this,0,0)" id="00"></div>
+            <div class="col" onclick="ActionPerformedByPlayer(this,0,1)" id="01"></div>
+            <div class="col" onclick="ActionPerformedByPlayer(this,0,2)" id="02"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col" onclick="ActionPerformedByPlayer(this,1,0)" id="10"></div>
+            <div class="col" onclick="ActionPerformedByPlayer(this,1,1)" id="11"></div>
+            <div class="col" onclick="ActionPerformedByPlayer(this,1,2)" id="12"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col" onclick="ActionPerformedByPlayer(this,2,0)" id="20"></div>
+            <div class="col" onclick="ActionPerformedByPlayer(this,2,1)" id="21"></div>
+            <div class="col" onclick="ActionPerformedByPlayer(this,2,2)" id="22"></div>
+        </div>
+
+    </div>
+
+    <div class="restartSection" id="resetId" onclick="reset()"></div>
+    <div class="player1Score" id="score1">Person A Score:</div>
+    <div class="player2Score" id="score2">Person B Score:</div>
+    <div class="drawScore" id="draw">Draw</div>
+
+
+</body>
+
+</html>
