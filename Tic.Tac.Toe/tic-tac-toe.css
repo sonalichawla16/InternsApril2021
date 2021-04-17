@@ -1,0 +1,40 @@
+.bold {
+	font-weight:900;
+}
+
+.pointer:hover {
+    background-color: rgb(227, 255, 67);
+}
+
+.pointer {
+    cursor: pointer;
+    margin: 8px;
+    border: 3px solid rgb(157, 192, 4);
+    background-color: rgb(206, 235, 77);
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: inline-table;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p{font-style: italic;
+font-size:45px;
+font-weight: bold;
+text-align: center;}
+
+button{background-color: rgb(207, 199, 190);
+width: 90px;
+height: 50px;
+font-family: cursive;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+body{background-image: url(./tic-tac-images/tic\ tac\ back2.png);}
