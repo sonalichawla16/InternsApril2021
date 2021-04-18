@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container" id="one">
+        <div class="first">
+            <img src="images/logo.png">&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="display-1">CYBER GROUP CALENDAR 2021</span>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <marquee><span id="f">CLICK ON</span><span id="t">THE BUTTON</span> <span id="th">AND</span><span  id="fo">SELECT MONTH</span></marquee>
+    <br><br><br><br>
+    <div class="container">
+        <div class="dropdown">
+            <!-- <button class="btn btn-primary bt" onclick=group()>CURRENT DATE</button> -->
+            <button class="btn btn-primary bt" onclick=group()>SELECT MONTH</button>
+        </div>
+    </div>
+    <hr>
+    <br><br>
+    <div class="container" id="group">
+    <div class="list-group">
+        <a href="./month/jan.html" class="list-group-item list-group-item-action">January</a>
+        <a href="./month/feb.html" class="list-group-item list-group-item-action">February</a>
+        <a href="./month/mar.html" class="list-group-item list-group-item-action">March</a>
+        <a href="./month/apr.html" class="list-group-item list-group-item-action">April</a>
+        <a href="./month/may.html" class="list-group-item list-group-item-action">May</a>
+        <a href="./month/june.html" class="list-group-item list-group-item-action">June</a>
+        <a href="./month/july.html" class="list-group-item list-group-item-action">July</a>
+        <a href="./month/aug.html" class="list-group-item list-group-item-action">August</a>
+        <a href="./month/sep.html" class="list-group-item list-group-item-action">September</a>
+        <a href="./month/oct.html" class="list-group-item list-group-item-action">October</a>
+        <a href="./month/nov.html" class="list-group-item list-group-item-action">November</a>
+        <a href="./month/dec.html" class="list-group-item list-group-item-action">December</a>
+    </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

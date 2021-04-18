@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALENDAR</title>
+    <link rel="stylesheet" href="cal.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="calendar">
+            <div class="month">
+                <i class="fas fa-angle-left prev" onclick=dec();></i>
+                <div class="date">
+                    <h1>JANUARY</h1>
+                </div>
+                <i class="fas fa-angle-right" onclick=feb();></i>
+            </div>
+            <div class="weekdays">
+                <div>MON</div>
+                <div>TUE</div>
+                <div>WED</div>
+                <div>THU</div>
+                <div>FRI</div>
+                <div>SAT</div>
+                <div>SUN</div>
+            </div>
+            <div class="days">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <abbr title="New Year's Day"><div class="bo">1</div></abbr>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+                <div>11</div>
+                <div>12</div>
+                <div>13</div>
+                <div>14</div>
+                <div>15</div>
+                <div>16</div>
+                <div>17</div>
+                <div>18</div>
+                <div>19</div>
+                <div>20</div>
+                <div>21</div>
+                <div>22</div>
+                <div>23</div>
+                <div>24</div>
+                <div>25</div>
+                <abbr title="Republic Day"><div class="de">26</div></abbr>
+                <div>27</div>
+                <div>28</div>
+                <div>29</div>
+                <div>30</div>
+                <div>31</div>
+            </div>
+            <div id="hide">
+                <div class="crim">DALLAS</div>
+                <div class="gr">DELHI</div>
+                <div class="or">BOTH</div>
+            </div>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <div class="dallas">DALLAS</div>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <div class="delhi">DELHI</div>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <div class="both">BOTH</div>
+    </div>
+</body>
+<script src="cal.js"></script>
+</html>
