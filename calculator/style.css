@@ -1,0 +1,29 @@
+body{
+    background:linear-gradient(45deg,#42f59f,transparent) ;
+}
+.container{
+    text-align: center;
+    margin-top: 10%;
+}
+table{
+    margin:auto;
+}
+input{
+    border-radius: 20%;
+    font-size:150%;
+    border: 5px solid black;
+	text-align:right;
+}
+button {
+    font-size: 35px;
+    background:white ;
+    width: 78px;
+    height: 57px;
+    border-radius: 23px;
+}
+.calculate{
+    display: inline-block;
+    padding: 23px;
+    border-radius: 53px;
+    background-color:black;
+}
