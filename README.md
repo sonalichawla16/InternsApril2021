@@ -3,6 +3,8 @@ My assignments and experiments
 ## Tic-Tac-Toe https://alicygrp.github.io/Tic-Tac-Toe-JS/
 ## Calculator https://alicygrp.github.io/Calculator-JS/
 
+##Calendar https://alicygrp.github.io/Calendar-1/
+
 Do check it out and I'll happy if you share any feedback
 
 Thank You.
