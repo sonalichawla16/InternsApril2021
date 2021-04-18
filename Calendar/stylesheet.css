@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-size: 1.5vw; */
+}
+.calendar-bg{
+   background:  linear-gradient(to right, #a8ff78, #78ffd6);
+}
+.my-cells{
+    
+    width: 5vw !important;
+    height: 5vw !important;
+    text-align: center; 
+    vertical-align: middle !important;}
+
+.my-cells:hover{
+        background-color:whitesmoke !important;
+        ;
+    }
+.table-div{
+    position: relative;
+    left:15vw;
+    align-self: center;
+    vertical-align: middle !important;
+        height: 30vw;
+        width: 30vw;
+    }
+    @media only screen and (max-width: 768px){
+        .table-div{
+        left:5%
+        }   
+    }
+.disabled{
+    background-color: whitesmoke;
+}
+.my-thead{
+    font-size: 1.5vw;
+}
+#select-box:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.holiday-dallas{
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+.normalOff{
+color: tomato;
+}
+
+#left:hover{
+    transition: 1.4s;
+    transform: rotate(360deg);
+}
+#right:hover{
+    transition: 1.4s;
+    transform: rotate(360deg);
+}
+.holiday-india{
+    /* border-radius: 50%; */
+   
+  /* padding: 20% 0%!important; */
+    background: linear-gradient(to top, #fc4a1a, #f7b733);
+}
+
+.holiday-dallas.holiday-india{background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /* background: linear-gradient(to bottom right,, ); */
+    /* background: linear-gradient(to bottom left, linear-gradient(to top, #fc4a1a, #f7b733) 50%, linear-gradient(to top, #fc4a1a, #f7b733) 50%); */
+
+    /* background-image: radial-gradient(circle at center, red 5px, transparent 5px), radial-gradient(circle at center, red 5px, transparent 5px);
+    background-size: 20px 20px;
+    background-position:  bottom center left,bottom center right;
+    background-repeat: no-repeat; */
+}
