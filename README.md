@@ -6,3 +6,4 @@
 ### tic tac toe deployed at :[ Netlify Link](https://distracted-bell-b7736a.netlify.app/)
 ### Javascript File (md): [ javascript_assignment ](javascript_assignment.md)
 ### Calendar Deployed at :[ Netlify ](https://zealous-austin-847343.netlify.app/)
+### String case : [ Netlify ](https://adoring-beaver-28d4be.netlify.app/)
