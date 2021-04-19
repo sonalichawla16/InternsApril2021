@@ -10,3 +10,6 @@ https://gurnoors327.github.io/Tictactoe/
 
 Calculator
 https://gurnoors327.github.io/Calculator/
+
+Calendar
+https://gurnoors327.github.io/Calendar/
