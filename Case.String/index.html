@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STRING  CONVERTER</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+        body{
+            background-image: url(./bg-img.jpg);
+        }
+        </style>
+  </head>
+  <body>
+    <div class="main" style="text-align: center;">
+
+        <h1 class="display-1" style="text-align: center;">STRING CONVERTER</h1>
+        <h2  style="font-size:2.2.5vw ;font-size:3vh;">
+            Enter the String
+        </h2>
+      <input id="input_case" type="text" /><br>
+      
+
+      <h3  style="font-size:2.2.5vw ;font-size:3vh;">Choose The Output Case</h3>
+      <br />
+      <input type="radio" name="output_case" value="upper" />Upper Case
+      <br /><br>
+      <input type="radio" name="output_case" value="lower" />Lower Case
+      <br /><br>
+      <input type="radio" name="output_case" value="pascal" />Pascal Case
+      <br /><br>
+      <input type="radio" name="output_case" value="snake" />Snake Case
+      <br /><br>
+      <input type="radio" name="output_case" value="upper_snake" />Upper Case
+      with Snake Case
+      <br /><br>
+      <input type="radio" name="output_case" value="kebab" />Kebab Case
+      <br /><br>
+      <input type="radio" name="output_case" value="camel" />Camel Case
+
+      <br /><br><br>
+
+      <button class="submit_btn" type="button" onclick="displayRadioValue()">Submit</button><br> <br> 
+
+      <div id="result">
+        <h3  style="font-size:2.2.5vw ;font-size:3vh;">
+          Get Your Output Here:
+      </h3>
+        <input id="output" type="text" /><br> <br>
+
+      </div>
+    </div>
+    <br><br>  
+
+    <script src="./string.js"></script>
+  </body>
+</html>
