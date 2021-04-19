@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://media-exp1.licdn.com/dms/image/C4D0BAQFSk7W1KUiG0w/company-logo_200_200/0/1565806901139?e=2159024400&v=beta&t=VokcUH3-LWGBsZnb9hV16SMHeYvn0K3mAUjrL74ydEI">
+    <title>
+        Calendar CYGRP
+    </title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body class="light">
+
+<header>
+    <img  class="logo" src="https://media-exp1.licdn.com/dms/image/C4D0BAQFSk7W1KUiG0w/company-logo_200_200/0/1565806901139?e=2159024400&v=beta&t=VokcUH3-LWGBsZnb9hV16SMHeYvn0K3mAUjrL74ydEI" alt="CYGRP"/>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="index2.html">Dallas USA</a></li>
+            <li><a href="index1.html">Delhi India</a></li>
+        </ul>
+    </nav>
+    <a class="cta" href="../index.html"><button>Sign Out</button></a>
+</header>
+<!--This is the calender component-->
+    <div class="calendar">
+        <div class="calendar-header">
+            <span class="month-picker" id="month-picker">February</span>
+            <div class="year-picker">
+                <span class="year-change" id="prev-year">
+                    <pre><</pre>
+                </span>
+                <span id="year">2021</span>
+                <span class="year-change" id="next-year">
+                    <pre>></pre>
+                </span>
+            </div>
+        </div>
+        <div class="calendar-body">
+            <div class="calendar-week-day">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div class="calendar-days"></div>
+        </div>
+        <div class="calendar-footer">
+            <div class="toggle">
+                <span>Dark Mode</span>
+                <div class="dark-mode-switch">
+                    <div class="dark-mode-switch-ident"></div>
+                </div>
+            </div>
+        </div>
+        <div class="month-list"></div>
+    </div>
+
+
+
+ <!-- This Is Our Card Component -->
+ <h1 class="h3-tag">Scheduled Holidays</h1>
+ <div class="cards">
+     <div class="card card1">
+         <div class="container-main">
+             <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+         </div>
+         <div class="details">
+             <h3>New Year's Day Friday, January 1<sup>st</sup></h3>
+             <p>Beginning Of New Year Is Always A Great Feeling.</p>
+         </div>
+     </div>
+     <div class="card card3">
+        <div class="container-main">
+            <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+        </div>
+        <div class="details">
+            <h3>Good Friday, Friday April 2<sup>nd</sup></h3>
+            <p>Hope It Will Bring Happiness To Your Life</p>
+        </div>
+    </div>
+     <div class="card card2">
+         <div class="container-main">
+            <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+         </div>
+         <div class="details">
+             <h3>Memorial Day, Monday May 31<sup>st</sup></h3>
+             <p>Memorial Day</p>
+         </div>
+     </div>
+     <div class="card card3">
+         <div class="container-main">
+             <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+         </div>
+         <div class="details">
+             <h3>Independence day, Monday, July 5<sup>th</sup></h3>
+             <p>Independence Of American Nation</p>
+         </div>
+     </div>
+     
+     <div class="card card3">
+         <div class="container-main">
+             <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+         </div>
+         <div class="details">
+             <h3>Labor Day, Monday Spetember 6<sup>th</sup></h3>
+             <p>Labor Day</p>
+         </div>
+     </div>
+     <div class="card card3">
+         <div class="container-main">
+             <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+         </div>
+         <div class="details">
+             <h3>Thanks Giving, Thurs-Fri November25-26<sup>th</sup></h3>
+             <p>Thanks Giving day</p>
+         </div>
+     </div>
+     <div class="card card3">
+        <div class="container-main">
+            <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+        </div>
+        <div class="details">
+            <h3>Christmas Eve, Friday December 24<sup>th</sup> </h3>
+            <p>Christmas Eve</p>
+        </div>
+    </div>
+    <div class="card card3">
+        <div class="container-main">
+            <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+        </div>
+        <div class="details">
+            <h3>Christmas, Monday December 27<sup>th</sup> </h3>
+            <p>Christmas</p>
+        </div>
+    </div>
+     <div class="card card3">
+         <div class="container-main">
+             <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+         </div>
+         <div class="details">
+             <h3>New Year's Eve, Friday December 31<sup>st</sup></h3>
+             <p>New Year's Eve</p>
+         </div>
+     </div>
+     
+     
+ </div>
+
+
+    
+    <!-- <h3 class="h3-tag">Scheduled Holidays</h3>
+    <div class="cards">
+        <div class="card card1">
+            <div class="container-main">
+                <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+            </div>
+            <div class="details">
+                <h3>New Year's Eve</h3>
+                <p>This is new year and we are celebrating it</p>
+            </div>
+        </div>
+        <div class="card card2">
+            <div class="container-main">
+               <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+            </div>
+            <div class="details">
+                <h3>New Year's Eve</h3>
+                <p>This is new year and we are celebrating it</p>
+            </div>
+        </div>
+        <div class="card card3">
+            <div class="container-main">
+                <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+            </div>
+            <div class="details">
+                <h3>New Year's Eve</h3>
+                <p>This is new year and we are celebrating it</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cards">
+        <div class="card card1">
+            <div class="container-main">
+                <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+            </div>
+            <div class="details">
+                <h3>New Year's Eve</h3>
+                <p>This is new year and we are celebrating it</p>
+            </div>
+        </div>
+        <div class="card card2">
+            <div class="container-main">
+               <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+            </div>
+            <div class="details">
+                <h3>New Year's Eve</h3>
+                <p>This is new year and we are celebrating it</p>
+            </div>
+        </div>
+        <div class="card card3">
+            <div class="container-main">
+                <img src="https://mma.prnewswire.com/media/998674/Cyber_Group_Logo.jpg?p=publish" alt="" />
+            </div>
+            <div class="details">
+                <h3>New Year's Eve</h3>
+                <p>This is new year and we are celebrating it</p>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
