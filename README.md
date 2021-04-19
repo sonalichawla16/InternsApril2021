@@ -7,3 +7,6 @@ https://gurnoors327.github.io/Case-Modifier/
 
 TicTacToe
 https://gurnoors327.github.io/Tictactoe/
+
+Calculator
+https://gurnoors327.github.io/Calculator/
