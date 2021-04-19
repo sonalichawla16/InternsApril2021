@@ -1,0 +1,14 @@
+.content{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+}
