@@ -1,0 +1,85 @@
+.sunday{
+    color:purple;
+    font-weight: bold;
+}
+
+caption{
+  color: red;
+}
+th{
+  text-align: center;
+  padding: auto;
+}
+td{
+    width:10%;
+    text-align: center;
+    padding: auto;
+   
+}
+div{
+  margin-bottom:5%;
+}
+td:hover{
+    background-color:orange;
+    font-weight: bold;
+}
+
+.prev_or_next{
+    color:grey;
+}
+.holidays_in_common{
+  background-color:limegreen;
+  color: black;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.holidays_in_india
+{
+    color:darkred;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.holidays_in_dallas
+{
+    color:darkblue;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+caption{
+    font-weight: bolder;
+}
+
+.center{
+ 
+    display: block;
+    margin-left: 25%;
+  margin-right: 25%;
+    width: 50%;
+  }
+  .center_dropdown{
+    display: block;
+    margin-left: 25%;
+  margin-right: 25%;
+    width: 50%;
+  }
+  .button_size{
+    width:auto;
+    height:auto;
+  }
+  .my-menu{
+    text-align: center;
+  }
+  .welcome{
+    margin:10%;
+  }
+  .center_table{
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .center_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
