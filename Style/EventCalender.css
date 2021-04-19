@@ -1,0 +1,72 @@
+body{
+    background-color: black !important;
+    color: whitesmoke !important;
+}
+.calender-cell{
+    border:solid gray;
+    
+    height: 87px;
+    cursor: pointer;
+}
+.calender{
+    border: solid gray;
+}
+.padding-bottom{
+    padding-bottom: 10px;
+}
+.btn{
+    color: whitesmoke !important;
+}
+.calender-day-cell{
+    height:87px;
+    background-color: whitesmoke  !important;
+    color: black;
+    padding-left:1px !important;
+    padding-right:1px !important;
+}
+.calender-day-cell-heading{
+    background-color: darkgrey;
+    border:solid gray 1px;
+}
+.calender-day-cell,.calender-month{
+    border:solid gray 1px;
+}
+.calender-day-cell-holiday{
+    color: darkgrey;
+}
+.calender-day-cell-holiday{
+    color: dimgrey;
+}
+.event-calender-row{
+    width:100%;
+    display: inline-flex;
+}
+.event-calender-day-cell{
+    width:14.857%
+}
+.calender-holiday{
+    font-size: 10px;
+    
+}
+.indian-holiday{
+    background-color:chartreuse;
+}
+.dallas-holiday{
+    background-color:darkcyan;
+}
+.legend{
+    margin-top: 10px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    
+}
+.legend-row{
+    display: inline-flex;
+
+}
+.legend-text{
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
