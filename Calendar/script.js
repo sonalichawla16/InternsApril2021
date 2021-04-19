@@ -12,6 +12,7 @@ let monthDisplay=document.getElementById("Month")
 let selectBox=document.getElementById("select-box");
 let left=document.getElementById("left");
 let right=document.getElementById("right");
+let today=new Date();
 
 
 let yearGlobal=2021;
@@ -36,7 +37,7 @@ let checkHoliday=(checkDate)=>{
         if(checkDate<calendarObj.holidaysIndia[i][0])
         break;
         if(checkDate.getTime()===calendarObj.holidaysIndia[i][0].getTime()){
-            console.log("found match at India",calendarObj.holidaysIndia[i][0]);
+            // console.log("found match at India",calendarObj.holidaysIndia[i][0]);
             finalReturn.push(["India",calendarObj.holidaysIndia[i][1]]);
             break;
         }
@@ -45,7 +46,7 @@ let checkHoliday=(checkDate)=>{
         if(checkDate<calendarObj.holidaysDallas[i][0])
         break;
         if(checkDate.getTime()===calendarObj.holidaysDallas[i][0].getTime()){
-            console.log("found match at Dallas ",calendarObj.holidaysDallas[i][0]);
+            // console.log("found match at Dallas ",calendarObj.holidaysDallas[i][0]);
             finalReturn.push(["Dallas",calendarObj.holidaysDallas[i][1]]);
             break;
         }
@@ -94,7 +95,7 @@ let addCalendarTableTo=(el,valueArray,classListTable,classListThead,classListTd,
             // td.textContent="myyyyy"
             let returned=checkHoliday(valueArray[valueArray_index]);
             if(returned.length!==0){
-                console.log( returned.length>1 && returned[1][0]==="Dallas")
+                // console.log( returned.length>1 && returned[1][0]==="Dallas")
                 
                 if(returned[0][0]==="India"){
                 td.classList.add(holidaysIndiaClass);
@@ -111,6 +112,9 @@ let addCalendarTableTo=(el,valueArray,classListTable,classListThead,classListTd,
              }
              if(i===0 || i===6)
              td.classList.add("normalOff")
+            //  console.log("output for cehck date",valueArray[valueArray_index].getDate()===new Date().getDate())
+             if(valueArray[valueArray_index].getTime()===new Date(today.getFullYear(),today.getMonth(),today.getDate()).getTime())
+             td.classList.add("active")
              td.id=1+valueArray_index;
             valueArray_index++;
         }
@@ -118,7 +122,7 @@ let addCalendarTableTo=(el,valueArray,classListTable,classListThead,classListTd,
         td.textContent="";
             td.classList.add(disabledCell)
             }
-        console.log('id is',1+valueArray_index)
+        // console.log('id is',1+valueArray_index)
         td.classList.add(...classListTd);
         td.addEventListener('click',eventFun);        
         tr.appendChild(td);
@@ -153,9 +157,9 @@ let addCalendarTableTo=(el,valueArray,classListTable,classListThead,classListTd,
          
 }
 let addDiv=(ref)=>{
-    console.log("passed the "+this);
-console.log("root classes are ",ref.currentTarget.classList);
-console.log("deletion at"+ref.currentTarget.parentNode,ref.currentTarget)
+//     console.log("passed the "+this);
+// console.log("root classes are ",ref.currentTarget.classList);
+// console.log("deletion at"+ref.currentTarget.parentNode,ref.currentTarget)
 let India=ref.currentTarget.getAttribute('India-holiday');
 let Dallas=ref.currentTarget.getAttribute('Dallas-holiday');
 // console.log(India,"  ",Dallas)
@@ -167,13 +171,14 @@ if(India!==null || Dallas!==null){
     content=`India and Dallas are celebrating ${Dallas}`
     else content=`India is celebrating ${India},Dallas is celebrating ${Dallas}`
     }
-    console.log("content var is "+content+India+Dallas)
+    // console.log("content var is "+content+India+Dallas)
 }
 else content=`No holiday on ${ref.currentTarget.id}th of ${calendarObj.month[calendarObj.currentMonth]}`;
 if(!ref.currentTarget.classList.contains(disabledCell)) p.textContent=content;
 } 
 let myCall=(omit=false)=>{
-    console.log(div.childNodes[div.childNodes.length-1])
+    p.textContent="No Date Selected";
+    // console.log(div.childNodes[div.childNodes.length-1])
     
     div.childNodes[div.childNodes.length-1].remove()
     if(!omit){
@@ -187,21 +192,21 @@ let myCall=(omit=false)=>{
     }
 }
     let days=getDaysInMonth(calendarObj.currentMonth,yearGlobal);
-    console.log("my days are---",days);
+    // console.log("my days are---",days);
 
     addCalendarTableTo(div,days,classListTable,classListThead,classListTd,addDiv)
 
 }
 // addElement(root,button);
-console.log("root classes are ",root.classList)
+// console.log("root classes are ",root.classList)
 let i=0;
 //adding div for calendar
 let div=document.createElement('div');
 div.classList.add("table-div");
 let textStart=document.createElement('p');
-textStart.textContent="Hi I am calendar To get started Please select the Month or   ";
+textStart.textContent="Hi I am calendar To get started Please select the Month or    ";
 let buttonLets=document.createElement('button');
-buttonLets.textContent="click here";
+buttonLets.textContent="Click here";
 buttonLets.addEventListener("click",(event)=>{
     calendarObj.currentMonth=new Date().getMonth();
     let i=0;

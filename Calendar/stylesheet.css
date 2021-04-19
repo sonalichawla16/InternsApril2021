@@ -3,8 +3,12 @@
     padding: 0px;
     /* font-size: 1.5vw; */
 }
+.active{
+    color: green;
+}
 .calendar-bg{
    background:  linear-gradient(to right, #a8ff78, #78ffd6);
+   font-weight: 300;
 }
 .my-cells{
     
@@ -19,7 +23,7 @@
     }
 .table-div{
     position: relative;
-    left:15vw;
+    left :20vw;
     align-self: center;
     vertical-align: middle !important;
         height: 30vw;
@@ -27,11 +31,11 @@
     }
     @media only screen and (max-width: 768px){
         .table-div{
-        left:5%
+        left:7.5%
         }   
     }
 .disabled{
-    background-color: whitesmoke;
+    background-color: whitesmoke!important;
 }
 .my-thead{
     font-size: 1.5vw;
