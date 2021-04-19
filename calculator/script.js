@@ -12,6 +12,7 @@ function UserClickButton(input) {
   expressionData = newinput;
   input_box.value = newinput;
 }
+
 function CalculateValue() {
   console.log("Click");
   var input = input_box.value;
