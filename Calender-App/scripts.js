@@ -53,6 +53,7 @@
   
   
   function jump() {
+	document.querySelector('.add-text').innerHTML = "";
     currentMonth = parseInt(selectMonth.value);
     showCalendar(currentMonth, 2021);
   }
