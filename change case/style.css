@@ -1,0 +1,43 @@
+.main {
+    display: block;
+    text-align: center;
+    margin-top: 10vh;
+    font-family: "Segoe UI", "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  
+  input[type="radio"] {
+    background-color: #ddd;
+    border-radius: 10px;
+display: inline-block;
+    height: 25px;
+    position: relative;
+    width: 25px;
+  }
+  
+  .submit_btn {
+    display: inline-block;
+    padding: 0.2em 1.45em;
+    margin: 0.1em;
+    margin-top: 2em;
+    border: 0.10em solid #ece2e2;
+    box-sizing: border-box;
+    font-weight: 600;
+    color: #000000;
+    background-color: #f1bebe;
+    text-align: center;
+    position: relative;
+  }
+  
+  .submit_btn:hover {
+      border-color:#7a7a7a;
+  }
+  .submit_btn:active {
+      background-color:#999999;
+  }
+  @media all and (max-width:50em){
+      .submit_btn{
+          display:block;
+          margin:0.2em auto;
+      }
+  }
