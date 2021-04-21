@@ -5,3 +5,5 @@ Calculator Link
 https://shreyaa1501.github.io/calculator/ \
 Tic-Tac-Toe
 https://shreyaa1501.github.io/tic-tac-toe/
+Change Case
+https://shreyaa1501.github.io/change_case/
