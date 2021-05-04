@@ -1,0 +1,7 @@
+Find the usage of call, bind and apply.
+
+-> call()/ apply() to invoke the function immediately
+bind() is used when a function is called later in a certain event
+
+-> bind() method creates a copy of the function and sets the this keyword, 
+while the call() and apply() methods sets the this keyword and calls the function immediately
