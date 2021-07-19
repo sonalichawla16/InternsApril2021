@@ -84,7 +84,7 @@ button:nth-child(20){
 	font-size: 20px;
 	background-color: #9477af;
 }
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 760px)  and (max-width: 1030px){
 	body {
 			background: url('calimg2.jpg') ;
 			
